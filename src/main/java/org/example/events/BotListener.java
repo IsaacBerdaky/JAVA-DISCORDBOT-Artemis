@@ -1,4 +1,4 @@
-package org.example;
+package org.example.events;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
