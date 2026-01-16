@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.artemis.utils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

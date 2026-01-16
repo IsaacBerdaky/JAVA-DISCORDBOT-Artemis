@@ -1,11 +1,11 @@
-package org.example.events;
+package org.artemis.events;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import org.example.commands.Command;
-import org.example.managers.CommandManager;
-import org.example.managers.CooldownManager;
+import org.artemis.commands.Command;
+import org.artemis.managers.CommandManager;
+import org.artemis.managers.CooldownManager;
 
 public class BotListener extends ListenerAdapter {
 

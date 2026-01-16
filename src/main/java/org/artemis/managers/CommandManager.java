@@ -1,12 +1,12 @@
-package org.example.managers;
+package org.artemis.managers;
 
-import org.example.commands.*;
-import org.example.commands.basic.InfoCommand;
-import org.example.commands.basic.PingCommand;
-import org.example.commands.fun.CatGifCommand;
-import org.example.commands.fun.CoinCommand;
-import org.example.commands.fun.DiceCommand;
-import org.example.commands.fun.JokeCommand;
+import org.artemis.commands.*;
+import org.artemis.commands.basic.InfoCommand;
+import org.artemis.commands.basic.PingCommand;
+import org.artemis.commands.fun.CatGifCommand;
+import org.artemis.commands.fun.CoinCommand;
+import org.artemis.commands.fun.DiceCommand;
+import org.artemis.commands.fun.JokeCommand;
 
 import java.util.Collection;
 import java.util.HashMap;

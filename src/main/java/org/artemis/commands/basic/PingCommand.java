@@ -1,7 +1,7 @@
-package org.example.commands.basic;
+package org.artemis.commands.basic;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import org.example.commands.Command;
+import org.artemis.commands.Command;
 
 public class PingCommand implements Command {
     @Override

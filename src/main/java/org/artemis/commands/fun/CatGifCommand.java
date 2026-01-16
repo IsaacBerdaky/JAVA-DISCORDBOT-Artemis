@@ -1,9 +1,9 @@
-package org.example.commands.fun;
+package org.artemis.commands.fun;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import org.example.commands.Command;
-import org.example.utils.HttpUtils;
+import org.artemis.commands.Command;
+import org.artemis.utils.HttpUtils;
 
 public class CatGifCommand implements Command {
     Dotenv dotenv = Dotenv.load();

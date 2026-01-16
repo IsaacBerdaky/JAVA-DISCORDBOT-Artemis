@@ -1,10 +1,10 @@
-package org.example.commands.fun;
+package org.artemis.commands.fun;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import org.example.commands.Command;
+import org.artemis.commands.Command;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

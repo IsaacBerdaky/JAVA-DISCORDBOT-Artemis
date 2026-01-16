@@ -1,7 +1,7 @@
-package org.example.commands.fun;
+package org.artemis.commands.fun;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import org.example.commands.Command;
+import org.artemis.commands.Command;
 
 import java.util.Random;
 

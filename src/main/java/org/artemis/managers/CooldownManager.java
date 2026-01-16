@@ -1,4 +1,4 @@
-package org.example.managers;
+package org.artemis.managers;
 import java.util.HashMap;
 
 
