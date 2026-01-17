@@ -1,8 +1,10 @@
 package org.artemis.managers;
 
 import org.artemis.commands.*;
+import org.artemis.commands.basic.AvatarCommand;
 import org.artemis.commands.basic.InfoCommand;
 import org.artemis.commands.basic.PingCommand;
+import org.artemis.commands.basic.ServerInfoCommand;
 import org.artemis.commands.fun.CatGifCommand;
 import org.artemis.commands.fun.CoinCommand;
 import org.artemis.commands.fun.DiceCommand;
@@ -20,6 +22,8 @@ public class CommandManager {
         // Basic
         commands.put("ping", new PingCommand());
         commands.put("info", new InfoCommand());
+        commands.put("serverinfo", new ServerInfoCommand());
+        commands.put("avatar", new AvatarCommand());
 
         // Fun
         commands.put("1d20", new DiceCommand());
